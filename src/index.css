@@ -263,7 +263,9 @@ body {
 @media (max-width: 768px) {
   .hero {
     flex-direction: column-reverse;
+    width: 80%;
     text-align: center;
+    
   }
 
   .hero-text h1 {
@@ -360,5 +362,8 @@ body {
 .auth-mobile .register:hover {
   color: hsl(0, 0%, 8%);
   border-color: hsl(0, 0%, 8%);
+}
+.navbar{
+  width: 100%;
 }
 }
