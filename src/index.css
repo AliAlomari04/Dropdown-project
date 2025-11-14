@@ -279,7 +279,10 @@ body {
   .clients {
     justify-content: center;
   }
-
+  .clients img {
+  width: 45px;
+  opacity: 0.8;
+}
   .desktop{
     display: none !important;
   }
